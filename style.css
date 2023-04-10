@@ -1,0 +1,20 @@
+body {
+   background-color: black ;
+   margin: 0;
+   color: white;
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: JetBrains Mono;
+}
+
+.button {
+   font-weight: 800;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
