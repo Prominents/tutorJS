@@ -1,3 +1,4 @@
+console.log("=======Looping=======");
 //For Looping
 for (let x = 1; x <= 10; x++) {
   if (x % 2 == 0) console.log(x);
@@ -21,10 +22,12 @@ do {
   z++;
 } while (z <= 10);
 
+//loop & sum using array data
 const a = [3, 5, 12];
 let sum = 0;
 
 for (let i = 0; i < a.length; i++) {
   sum += a[i];
-  console.log(sum);
 }
+console.log(sum);
+console.log("=======Looping=======");
